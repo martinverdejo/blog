@@ -1,0 +1,5 @@
+Here are your blog posts:
+<%= @posts.each do |post| %>
+  <h1><%= post.title %></h1>
+  <p><%= post.body %></p>
+<% end %>
